@@ -1,0 +1,93 @@
+\documentclass[a4paper, 1pt, final]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage[pdftex]{graphicx}
+\usepackage[margin=2.8cm]{geometry}
+\usepackage{hyperref}
+
+\author{Saulo Lordão Andrade Barros\\
+Graduando em Ciência da Computação -- UFS\\
+saulo.lordao@gmail.com}
+
+\title{Desmistificando o \LaTeX:
+Como fazer documentos de alta qualidade sem se
+preocupar com a formatação}
+\date{}
+
+\hyphenation{Software}
+\begin{document}
+\maketitle
+\section{Resumo}
+
+As ferramentas mais utilizadas atualmente para processamento de texto são boas
+para um usuário que precisa escrever apenas documentos sem formatação rígida,
+porém são pouco úteis para artigos científicos, livros ou monografias, documentos
+que exigem gerenciamento de citações, imagens, tabelas e outros elementos.
+Uma das ferramentas mais usadas para simplificar este processo é o \LaTeX, um
+processador de documentos baseado no sistema de formatação \TeX, criado por
+Donald Knuth.
+
+O objetivo principal deste trabalho é proporcionar uma experiência com \LaTeX~e
+permitir o uso de modelos existentes para redigir os próprios documentos.
+Outros objetivos incluem aprender a utilizar as regras ABNT com a ferramenta
+e como utilizar um  \textit{Software} de Controle de Versão para redigir documentos
+em equipe.
+Ao fim do mini-curso os alunos serão capazes de redigir documentos de alta
+qualidade com gerenciamento automático de citações, utilizando Bib\TeX~e
+\LaTeX.
+
+A metodologia a ser utilizada neste trabalho será baseada em exposição de
+conteúdo e prática. Alguns documentos serão demonstrados como exemplo do
+poder da ferramenta, enquanto outros serão redigidos pelos próprios alunos,
+para exercitar o uso dos comandos e pacotes da linguagem. Também serão usados
+exercícios com modelos de documentos prontos, a fim de demonstrar a facilidade
+provida para redigir e converter documentos entre modelos (ex.: Redigir uma
+monografia e depois transformá-la em livro, ou transformar um artigo no
+padrão IEEE para ABNT).
+
+\vspace{3mm}
+\emph{\small{Palavras-chave: \LaTeX, Typesetting, Document processor}}
+
+\section{Objetivos}
+Apresentar ao aluno as vantagens e desvantagens dos paradigmas de edição de texto
+WYSIWYG (processadores de texto) e WYSIWYM (processadores de documento).
+Introduzir o uso de \LaTeX, permitindo que o aluno possa redigir documentos
+de alta qualidade e gerenciar citações com Bib\TeX~de forma simples.
+Simplificar o uso de regras ABNT com o uso da biblioteca ABN\TeX2.
+Demonstrar como redigir documentos em equipe usando um \textit{Software} de
+Controle de Versão.
+
+\section{Público-alvo}
+Estudantes de graduação e pessoas ligadas à academia de modo geral.
+
+\section{Público máximo}
+Para o melhor aproveitamento do mini-curso, o público máximo estipulado é de
+15 pessoas, devido às práticas planejadas, faz-se necessário o acompanhamento
+dos alunos pelo ministrante.
+
+\section{Recursos Necessários}
+\begin{itemize}
+		\item
+			Laboratório com computadores disponíveis;
+		\item
+			Alguma distribuição GNU/Linux recente;
+		\item
+			\TeX Live 2013 (com ABN\TeX2) instalado;
+		\item
+			Versão recente do \TeX Maker instalada;
+		\item
+			Git instalado.
+\end{itemize}
+
+\section{Breve Currículo}
+Saulo Lordão Andrade Barros é Graduando em Ciência da Computação pela Universidade
+Federal de Sergipe. Foi bolsista de Iniciação Tecnológica pela FAPITEC de 2012 a
+2013, e recebeu o prêmio de \href{http://www.mentesinterativas.com.br/fapitec/sites/default/files/1/resultados/resultado_04-2013_-_premio.pdf}{Jovem Cientista em 2013} pelo projeto
+\href{http://www.siirius.ufs.br/ }{Siirius}. Durante o projeto fez alguns artigos
+em \LaTeX, e faz outros documentos por \textit{hobby}.
+
+Atualmente trabalha no SergipeTec
+como estagiário, participando do desenvolvimento de funcionalidades para o sistema da
+Secretaria da Fazenda do Estado de Sergipe (SEFAZ).
+
+\end{document}
